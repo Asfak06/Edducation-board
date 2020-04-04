@@ -1,0 +1,201 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+body{
+	
+	background-color: black ;
+	
+}
+
+.main{
+	width:700px;
+	/*height:543px;*/
+	margin:auto;
+	margin-top:10px;
+	border-radius:10px;
+	background-color:#FFFFFF;
+    overflow:hidden;
+	
+}
+
+.main:after{
+	content:'';
+	display:block;
+	clear:both;
+		
+}
+
+.head{
+	width:97%;
+	height:130px;
+	
+	margin:auto;
+	margin-top:10px;
+	border-radius: 10px 10px 0px 10px;
+
+}
+
+.logo{
+	width:25%;
+	height:100%;
+	background-color:#EEEEEE;
+    border-radius: 10px 0px 0px 10px;
+    float:left;
+
+	
+}
+
+.logo img{
+	margin-left:35px;
+	margin-top:17px;
+		
+}
+
+.logo1{
+	
+	width:45%;
+	height:30%;
+	background:#007814;
+	float:left;
+	
+}
+
+.logo1 h1{
+	font-family:tahoma;
+	font-size:17px;
+	color:#95e17d;
+	margin-top:15px;
+	margin-left:5px;
+		
+}
+
+.banner{
+	width:30%;
+	height:30%;
+	float:left;
+	display:block;
+
+}
+
+.banner img{
+	width:100%;
+	height:100%;
+	
+}
+
+.head1{
+	width:75%;
+	height:.4%;
+	display:block;
+	float:left;
+	background:#95e17d;
+	
+}
+
+.head2{
+	width:75%;
+	height:45%;
+	background:#007814;
+	display:block;
+	float:left;
+	
+}
+
+.head2 h3{
+	font-family:tahoma;
+	font-size:17px;
+	color:#FFFFFF;
+	margin-top:7px;
+	margin-left:5px;
+		
+}
+
+.blar{
+	width:75%;
+	height:24%;
+	display:block;
+	float:left;
+	margin-top:1px;
+	
+	background:linear-gradient(#80BC7C,#96CD94),radial-gradient(#66B063,#67B061);
+		
+}
+
+.blar a{
+	font-size:12px;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding-left:5px;
+	margin-left:300px;
+	margin-top:20px;
+		
+}
+
+.blar a:hover{
+	color:#00CC99;
+		
+}
+
+
+.footer{
+	width:97%;
+	height:75px;
+	background:#F2F2F2;
+    margin:auto;
+	
+}
+
+.footer1{
+	width:60%;
+	display:block;
+	float:left;
+	
+	
+}
+
+.footer1 p{
+	font-size:11px;
+	color:#666666;
+	font-family:tahoma;
+	margin-left:5px;
+	margin-top:30px;
+		
+}
+
+.footer2{
+	width:25%;
+	display:block;
+	float:left;
+	
+}
+
+.footer2 p{
+	font-size:11px;
+	color:#666666;
+	font-family:tahoma;	
+	margin-top:30px;
+	margin-left:90px;
+	
+}
+
+.footer3{
+	width:15%;
+	display:block;
+	float:left;
+	
+}
+
+.footer3 img{
+	margin-top:0px;	
+}
+
+.s-img img{
+	width: 100px;
+                          height: 100px;
+                          border-radius: 50%;
+                          border: 5px dotted deeppink;
+                         
+}
